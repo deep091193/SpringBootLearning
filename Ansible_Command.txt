@@ -1,0 +1,6 @@
+cat playbook.yml  -------------- Check playbook
+sudo vi playbook.yml ----------- Edit Playbook
+ansible-playbook -i myhosts -k playbook.yml--------------  Run Playbook
+ansible --version  ----------------------- Check Ansible Version
+python3 --version  ----------------------- Check Python Version
+ansible --version | grep "python version"
